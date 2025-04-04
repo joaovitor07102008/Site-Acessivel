@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --azul-escuro: #0d30a3f3;
+    --azul-claro: #19e6f5;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #217a21;
+    --alto-contraste-link: #f0ec2c;
+}
+
+body {
+    background-color: #5dd8eebd;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 4rem 0;
+}
+
+header {
+    background-color: #d5dbdd;
+}
+
+section {
+    padding-bottom: 5rem;
+}
+
+.nav-link {
+    color: #12da1c;
+    font-weight: 600;
+}
+
+.inicio-fundo {
+    background-image: url('img/1584043876_6agsg8g2ek.gif');
+    background-size: cover;
+    background-position: right;
+    border-radius: 80px;
+    width: 100%;
+    height: 606px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+/* Imagem à direita */
+.img-inicio {
+    position: absolute;
+    right: 0;
+    top: 18rem;
+    width: 45rem;
+    height: auto;
+}
+
+.esquerda-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.botao-inicio {
+    background-color: var(--azul-claro);
+    border-radius: 30px;
+    border: none;
+    width: 14em;
+    height: 3em;
+    align-content: center;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+#RedbullRacing {
+    position: relative;
+    padding-top: 5rem;
+    margin: 3rem 0;
+    background-size: 180px 180px;
+}
+
+#Redbullracing .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--azul-claro);
+}
+
+
+
+.fundo-galeria {
+    background-image: url('img/1584043876_6agsg8g2ek.gif');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    padding: 4rem 0;
+}
+
+#contato {
+    background-image: url('img/1584043876_6agsg8g2ek.gif');
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.formulario {
+    background-color: #3291da;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.formulario button {
+    background-color: #cc310f;
+    border: none;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: #7fe0bd;
+}
+
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao-botao {
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes-acessibilidade {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opcoes-acessibilidade button {
+    margin-bottom: 5px;
+}
+
+.apresenta-lista {
+    display: none;
+}
+
+/* Modo alto contraste */
+.alto-contraste {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario {
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-contraste .nav-link {
+    color: var(--alto-contraste-link);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary {
+    background-color: var(--alto-contraste-link);
+    color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste #RedBullRacing {
+    background: none;
+}
+
+.alto-contraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-contraste .fundo-galeria {
+    background: none;
+}
+
+.centraliza-texto {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+}
+
+.titulo-esquerda 
+    .texto-longo {
+        text-align: justify;       /* Alinha o texto dos dois lados */
+        text-justify: inter-word;  /* Ajusta o espaçamento entre palavras */
+        font-size: 1.5rem;         /* Tamanho da fonte */
+        width: 100%;               /* Ocupa toda a largura do contêiner */
+        padding: 1rem 2rem;        /* Espaçamento interno */
+        line-height: 1.8;          /* Espaçamento entre linhas */
+        color: #ffffff;            /* Cor do texto */
+        background-color: #0d30a3f3; /* Cor de fundo azul escuro */
+        border-radius: 15px;       /* Bordas arredondadas */
+    }
